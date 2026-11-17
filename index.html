@@ -3142,7 +3142,7 @@ header {
                 </div>
                 <div class="product-info">
                     <h3 class="product-name"></h3>
-                    <span class="product-price">395045</span>
+                    <span class="product-price">3000</span>
                 </div>
                 <button class="btn-add-cart" onclick="addToCart('2', 3000, '')">
                     <i class="fa-solid fa-cart-plus"></i> أضف للسلة
@@ -3244,12 +3244,17 @@ header {
 
         <div class="cart-footer">
             <div class="cart-total-row">
-                <span>المجموع الإجمالي:</span>
-                <span id="cart-total-price">0 د.ج</span>
             </div>
-            <button class="checkout-btn" onclick="goToCheckout()">
-                <i class="fa-solid fa-credit-card"></i> إتمام الشراء
-            </button>
+                 <span>المجموع الإجمالي:</span>
+                <span id="cart-total-price">0 دج</span>
+            </div>
+            <a href="finly.html" style="text-decoration: none;">
+                <button class="checkout-submit-btn" onclick="goToFinelyPage()">
+                    <i class="fa-solid fa-credit-card"></i> التوجه لإتمام السداد
+                </button>
+            </a>
+        </div>
+    </div>
         </div>
     </div><script>
     const allProducts = [
